@@ -11,6 +11,12 @@ This includes the settings for:
 
 Copy the files to `/etc/php5/conf.d/.`
 
+on the server, go to webpage directory and type:
+
+    ln -s  /usr/share/xcache/admin xcachepage
+
+go to `http://domain/xcachepage`
+
 ## Testing
 
     # php -v
